@@ -1,6 +1,10 @@
 {
-  "types": "module",
+  "description": "a really cool app",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "types": "module",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -27,6 +31,5 @@
   },
   "devDependencies": {
     "concurrently": "^5.3.0"
-  },
-  "description": ""
+  }
 }
