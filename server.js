@@ -11,7 +11,7 @@ import orderRoutes from "./routes/orderRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import uploadRoutes from "./routes/uploadRoutes.js";
 import { handleError, notFound } from "./middlewares/errorHandlers.js";
-const port = 5000;
+const port = process.env.PORT || 5000;
 const app = express();
 
 if (process.env.NODE_ENV === "development") {
